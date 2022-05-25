@@ -189,7 +189,7 @@ textarea:focus {
   }
 
   .tweet-content {
-    width: 60% !important;
+    width: 100% !important;
   }
 
   .tweet-img {
