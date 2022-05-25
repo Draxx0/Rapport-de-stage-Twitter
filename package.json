@@ -1,0 +1,11 @@
+{
+  "name": "rapport-de-stage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/SASS/main.scss:./public/CSS/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

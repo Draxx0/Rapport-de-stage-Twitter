@@ -1,0 +1,59 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $twitter-black;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+  transition: 0.3s ease-out;
+  font-size: 18px;
+  padding-top: 6px;
+
+  &:focus {
+    color: black;
+  }
+}
+
+.mention {
+  color: $twitter-blue;
+}
+
+.gray {
+  color: $twitter-gray;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.post-tweet-img {
+  width: 64px;
+  height: 64px;
+}
