@@ -262,7 +262,8 @@ main {
 }
 .mid-container .tweet-container .tweet-content .tweet-img {
   width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
 }
 
 .right-container {
