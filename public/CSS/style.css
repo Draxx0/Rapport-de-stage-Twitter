@@ -278,7 +278,7 @@ main {
   height: 100%;
   border-radius: 50px;
   padding: 10px 20px;
-  background-color: #f8f8f8;
+  background-color: #d8d8d8;
   opacity: 0;
   z-index: -1;
   transition: 0.2s ease-out;
