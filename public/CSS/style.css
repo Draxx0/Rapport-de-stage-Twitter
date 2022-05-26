@@ -57,145 +57,6 @@ textarea:focus {
   height: 64px;
 }
 
-@media screen and (max-width: 1459px) {
-  .nav_list_menu {
-    display: none;
-  }
-
-  .nav_list {
-    align-items: flex-end;
-  }
-
-  .left-content {
-    align-items: flex-end !important;
-  }
-
-  .btn-big {
-    padding: 12px 15px !important;
-    border-radius: 100% !important;
-  }
-
-  .btn-title {
-    display: none;
-  }
-
-  .btn-icon {
-    display: block !important;
-  }
-}
-@media screen and (max-width: 1374px) {
-  .post-tweet-bottom-content {
-    margin-top: 25px;
-    flex-direction: column;
-    gap: 15px;
-  }
-  .post-tweet-bottom-content .post-tweet-icons-container {
-    padding: 0 !important;
-  }
-  .post-tweet-bottom-content button {
-    margin: auto auto auto 0;
-  }
-}
-@media screen and (max-width: 1299px) {
-  main {
-    width: 100% !important;
-  }
-
-  .right-container {
-    display: none;
-  }
-
-  .mid-container {
-    width: 85% !important;
-    border-right: solid 1px #d8d8d8;
-  }
-
-  .left-container {
-    width: 10% !important;
-  }
-}
-@media screen and (max-width: 779px) {
-  .tweet-container {
-    padding: 25px 50px 0 50px !important;
-  }
-
-  .mid-container {
-    width: 100% !important;
-  }
-
-  .left-container {
-    display: none;
-  }
-
-  .top-content {
-    align-items: center;
-  }
-
-  .home {
-    display: none !important;
-  }
-
-  .mobile-logo {
-    display: block !important;
-    width: 32px;
-    height: 32px;
-  }
-
-  .mobile-menu {
-    display: block !important;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 7%;
-    background-color: rgb(255, 255, 255);
-    border-top: solid 1px #d8d8d8;
-  }
-
-  .nav_list {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .home {
-    display: flex;
-    gap: 25px;
-  }
-
-  .mobile-account {
-    display: block !important;
-    width: 48px;
-  }
-
-  .post-tweet-container,
-.separation-line {
-    display: none;
-  }
-
-  .mobile-message {
-    display: block !important;
-    position: fixed;
-    right: 10%;
-    bottom: 15%;
-  }
-
-  .nav_list_icon {
-    width: 24px;
-  }
-}
-@media screen and (max-width: 499px) {
-  .tweet-container {
-    padding: 25px 25px 0 25px !important;
-  }
-
-  .tweet-content {
-    width: 100% !important;
-  }
-
-  .tweet-img {
-    height: 400px !important;
-  }
-}
 .btn {
   background-color: #1da1f2;
   font-size: 18px;
@@ -301,10 +162,6 @@ main {
   display: none;
 }
 
-.mobile-logo {
-  display: none;
-}
-
 .mid-container {
   width: 50%;
   padding: 20px 0 50px 0;
@@ -405,8 +262,7 @@ main {
 }
 .mid-container .tweet-container .tweet-content .tweet-img {
   width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: auto;
 }
 
 .right-container {

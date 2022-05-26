@@ -6,17 +6,20 @@
     align-items: flex-end;
   }
   .left-content {
-    align-items: flex-end !important;
+    align-items: flex-end;
   }
   .btn-big {
-    padding: 12px 15px !important;
-    border-radius: 100% !important;
+    padding: 12px 15px;
+    border-radius: 100%;
   }
   .btn-title {
     display: none;
   }
   .btn-icon {
-    display: block !important;
+    display: block;
+  }
+  .btn-big {
+    margin-right: -25px;
   }
 }
 @media screen and (max-width: 1374px) {
@@ -24,39 +27,40 @@
     margin-top: 25px;
     flex-direction: column;
     gap: 15px;
+  }
 
-    .post-tweet-icons-container {
-      padding: 0 !important;
-    }
+  .post-tweet-icons-container {
+    padding: 0;
+  }
 
-    button {
-      margin: auto auto auto 0;
-    }
+  button {
+    margin: auto auto auto 0;
   }
 }
 
 @media screen and (max-width: 1299px) {
   main {
-    width: 100% !important;
+    width: 100%;
   }
   .right-container {
     display: none;
   }
   .mid-container {
-    width: 85% !important;
-    border-right: solid 1px $line;
+    width: 85%;
+    border-right: solid 1px #d8d8d8;
   }
   .left-container {
-    width: 10% !important;
+    width: 10%;
   }
 }
 
 @media screen and (max-width: 779px) {
-  .tweet-container {
-    padding: 25px 50px 0 50px !important;
+  .mid-container .tweet-container {
+    padding: 25px 25px 0 25px;
   }
   .mid-container {
-    width: 100% !important;
+    width: 100%;
+    padding-top: 0;
   }
   .left-container {
     display: none;
@@ -65,33 +69,27 @@
     align-items: center;
   }
   .home {
-    display: none !important;
-  }
-  .mobile-logo {
-    display: block !important;
-    width: 32px;
-    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
   }
   .mobile-menu {
-    display: block !important;
+    display: block;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 7%;
     background-color: rgba(255, 255, 255, 1);
-    border-top: solid 1px $line;
+    border-top: solid 1px #d8d8d8;
   }
   .nav_list {
     display: flex;
     justify-content: space-around;
   }
-  .home {
-    display: flex;
-    gap: 25px;
-  }
-  .mobile-account {
-    display: block !important;
+  .mid-container .top-content .mobile-account {
+    display: block;
     width: 48px;
   }
   .post-tweet-container,
@@ -99,7 +97,7 @@
     display: none;
   }
   .mobile-message {
-    display: block !important;
+    display: block;
     position: fixed;
     right: 10%;
     bottom: 15%;
@@ -107,16 +105,16 @@
   .nav_list_icon {
     width: 24px;
   }
+  .btn-big {
+    padding: 10px;
+  }
+  .btn-icon {
+    width: 24px;
+  }
 }
 
 @media screen and (max-width: 499px) {
-  .tweet-container {
-    padding: 25px 25px 0 25px !important;
-  }
   .tweet-content {
-    width: 100% !important;
-  }
-  .tweet-img {
-    height: 400px !important;
+    width: 100%;
   }
 }
