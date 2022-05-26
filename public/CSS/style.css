@@ -262,7 +262,7 @@ main {
 }
 .mid-container .tweet-container .tweet-content .tweet-img {
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
 }
 
